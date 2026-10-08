@@ -1,0 +1,148 @@
+
+/* Element selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Element selector */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Element selector */
+h1 {
+    color: #333;
+}
+
+/* Class selector */
+.description {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Add Expense section */
+.add-expense-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+/* Direct child selector */
+.add-expense-section > form {
+    padding: 10px;
+}
+
+/* Element selector */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Negation pseudo-class */
+input:not([type="submit"]) {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+/* Select styling */
+select {
+    width: 93%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+/* Focus state */
+input:focus,
+select:focus {
+    outline: 2px solid #4caf50;
+}
+
+/* Button */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+    /* Hand cursor */
+    cursor: pointer;
+}
+
+/* Button hover */
+button:hover {
+    background-color: #388e3c;
+}
+
+/* Your Expenses section */
+.expenses-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+/* Descendant selector */
+.expenses-section td {
+    color: #333;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table cells */
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Colored header row */
+thead {
+    background-color: #4caf50;
+    color: white;
+}
+
+/* Alternating row colors */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect on table rows */
+tbody tr:hover {
+    background-color: #dcedc8;
+}
+
+/* Multimedia section */
+.multimedia {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+/* Details section */
+details {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Summary */
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
